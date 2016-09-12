@@ -9,8 +9,8 @@ ram = 512
 puppet_nodes = [
   {:hostname => 'puppet',  :ip => '172.16.32.10', :box => box, :fwdhost => 8140, :fwdguest => 8140, :ram => ram},
   {:hostname => 'consul1', :ip => '172.16.32.20', :box => box, :fwdhost => 8500, :fwdguest => 8500, :ram => ram},
-  {:hostname => 'consul2', :ip => '172.16.32.30', :box => box},
-  {:hostname => 'consul3', :ip => '172.16.32.40', :box => box},
+#  {:hostname => 'consul2', :ip => '172.16.32.30', :box => box},
+#  {:hostname => 'consul3', :ip => '172.16.32.40', :box => box},
   {:hostname => 'client1', :ip => '172.16.32.51', :box => box},
   {:hostname => 'client2', :ip => '172.16.32.52', :box => box},
 ]
